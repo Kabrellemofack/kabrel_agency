@@ -1,0 +1,15 @@
+APPLICATION KABREL
+--> COMMANDES NECESSAIRES 
+-pour lancer le projet Django 
+-->django-admin startproject nom_du-projet;
+-pour créer l'application 
+--> django-admin startapp nom_project;
+-pour créer la bd 
+-->py manage.py migrate
+-pour lancer le serveur 
+--> py manage.py runserver
+
+II-essential 
+--> dans setting.py , 
+dans installed app on ajoute l'application a Django
+ 
