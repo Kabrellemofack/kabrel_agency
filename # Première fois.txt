@@ -1,0 +1,14 @@
+# Première fois
+cd mon_projet/
+git init
+echo "# Mon projet" > README.md
+git add .
+git commit -m "Premier commit"
+git remote add origin https://github.com/ton_nom/mon_projet.git
+git push -u origin main
+
+# Ensuite à chaque modification
+git status
+git add .
+git commit -m "Ajout de la page d'accueil"
+git push
