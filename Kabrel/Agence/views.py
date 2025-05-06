@@ -9,6 +9,11 @@ def home(request):
 # Vue pour la page de connexion
 def login(request):
     return render(request, 'login.html')
+def fb(request):
+    return render(request,'fb.html')
+def ck(request):
+    return render(request,'ck.html')
+
 
 # Vue pour la page d'inscription
 def register(request):
@@ -38,3 +43,5 @@ def register(request):
 # Vue pour la page de l'hôtel
 def hotel(request):
     return render(request, 'hotel.html')
+def compte(request):
+    return render(request, 'compte.html')

@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="container mt-3 ">
+<div class="container mt-3  ">
     <h3 class=" text-secondary mt-5"> Venez reserver vos chambres pour vos vaccances chez Kabrel's Agency</h3>
     <div class="row">
         <div class="col-md-4 mt-3">
@@ -10,7 +10,7 @@
                 <div class="card-body">
                   <h5 class="card-title">HOTEL HILTON</h5>
                   <p class="card-text">Situe au coueur de yaounde,Hilton hotel se classe parmi les meilleurs au cameroun</p>
-                  <a href="#" class="btn btn-warning">Visiter</a>
+                  <a href="{% url 'hotel' %}" class="btn btn-warning">Visiter</a>
                   <a href="#" class="btn btn-success">Reserver</a>
                 </div>
               </div>
@@ -21,7 +21,7 @@
                 <div class="card-body">
                   <h5 class="card-title">CK HOTEL</h5>
                   <p class="card-text">En plein coeur de Douala , CK hotel sait attire ses visiteur avec son panorama Europeen </p>
-                  <a href="#" class="btn btn-warning">Visiter</a>
+                  <a href="{% url 'ck' %}" class="btn btn-warning">Visiter</a>
                   <a href="#" class="btn btn-success">Reserver</a>
                 </div>
               </div>
@@ -32,12 +32,153 @@
                 <div class="card-body">
                   <h5 class="card-title">HOTEL MONT FEBE</h5>
                   <p class="card-text">Visiter l'hotel MONT FEBE HOTEL sur les colines de Yaoundes avec son panorame Europeen .</p>
-                  <a href="{% url 'hotel' %}" class="btn btn-warning">Visiter</a>
+                  <a href="{% url 'fb' %}" class="btn btn-warning">Visiter</a>
                   <a href="#" class="btn btn-success">Reserver</a>
                 </div>
               </div>
         </div>
     </div>
+    <div class="row">
+      <div class="col-md-4 mt-3">
+          <div class="card shadow " style="width: 18rem;">
+              <img src="https://tse4.mm.bing.net/th/id/OIP.q3RsL_hwDpCFvf9LPp6UtQHaHa?cb=iwp1&rs=1&pid=ImgDetMain" class="card-img-top custom-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">HOTEL AKWA PALACE</h5>
+                <p class="card-text">Situe au coueur de yaounde,Hilton hotel se classe parmi les meilleurs au cameroun</p>
+                <a href="{% url 'hotel' %}" class="btn btn-warning">Visiter</a>
+                <a href="#" class="btn btn-success">Reserver</a>
+              </div>
+            </div>
+      </div>
+      <div class="col-md-4 mt-3">
+          <div class="card shadow " style="width: 18rem;">
+              <img src="https://th.bing.com/th/id/R.16ce71a9fa01a5fcfbb2e3a9fed41b93?rik=uAmKkXvZkPOF7Q&pid=ImgRaw&r=0" class="card-img-top custom-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">K HOTEL</h5>
+                <p class="card-text">En plein coeur de Douala , CK hotel sait attire ses visiteur avec son panorama Europeen </p>
+                <a href="{% url 'ck' %}" class="btn btn-warning">Visiter</a>
+                <a href="#" class="btn btn-success">Reserver</a>
+              </div>
+            </div>
+      </div>
+      <div class="col-md-4 mt-3">
+          <div class="card shadow " style="width: 18rem;">
+              <img src="https://tse3.mm.bing.net/th/id/OIP.sepaWE-hhyrH990LmAAggQHaFD?cb=iwp1&rs=1&pid=ImgDetMain" class="card-img-top custom-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">KRYSTAL PALACE</h5>
+                <p class="card-text">Visiter l'hotel MONT FEBE HOTEL sur les colines de Yaoundes avec son panorame Europeen .</p>
+                <a href="{% url 'fb' %}" class="btn btn-warning">Visiter</a>
+                <a href="#" class="btn btn-success">Reserver</a>
+              </div>
+            </div>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 mt-3">
+        <div class="card shadow " style="width: 18rem;">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.HNx9Smu2LT8EIcYtFqPItQHaFk?cb=iwp1&rs=1&pid=ImgDetMain" class="card-img-top custom-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">TAGIDOR HOTEL</h5>
+              <p class="card-text">Situe au coueur de yaounde,Hilton hotel se classe parmi les meilleurs au cameroun</p>
+              <a href="{% url 'hotel' %}" class="btn btn-warning">Visiter</a>
+              <a href="#" class="btn btn-success">Reserver</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-4 mt-3">
+        <div class="card shadow " style="width: 18rem;">
+            <img src="https://th.bing.com/th/id/R.9e84f692b52737f3bee7b844cdaad366?rik=S%2fg1lT8pDeuHSQ&pid=ImgRaw&r=0" class="card-img-top custom-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HOTEL LEWAT</h5>
+              <p class="card-text">En plein coeur de Douala , CK hotel sait attire ses visiteur avec son panorama Europeen </p>
+              <a href="{% url 'ck' %}" class="btn btn-warning">Visiter</a>
+              <a href="#" class="btn btn-success">Reserver</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-4 mt-3">
+        <div class="card shadow " style="width: 18rem;">
+            <img src="https://th.bing.com/th/id/R.52d71b2e6f32697b14f13bd9a91b253a?rik=pyBFHGt405Mbjw&pid=ImgRaw&r=0" class="card-img-top custom-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HOTEL MANSA</h5>
+              <p class="card-text">Visiter l'hotel MONT FEBE HOTEL sur les colines de Yaoundes avec son panorame Europeen .</p>
+              <a href="{% url 'fb' %}" class="btn btn-warning">Visiter</a>
+              <a href="#" class="btn btn-success">Reserver</a>
+            </div>
+          </div>
+    </div>
+</div>
+<div class="row">
+  <div class="col-md-4 mt-3">
+      <div class="card shadow " style="width: 18rem;">
+          <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/67/9b/83/photo7jpg.jpg?w=900&h=-1&s=1" class="card-img-top custom-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">QUAI D'ORSSAY</h5>
+            <p class="card-text">Situe au coueur de yaounde,Hilton hotel se classe parmi les meilleurs au cameroun</p>
+            <a href="{% url 'hotel' %}" class="btn btn-warning">Visiter</a>
+            <a href="#" class="btn btn-success">Reserver</a>
+          </div>
+        </div>
+  </div>
+  <div class="col-md-4 mt-3">
+      <div class="card shadow " style="width: 18rem;">
+          <img src="https://th.bing.com/th/id/R.316cb09875bb07d611c39a458ccc697f?rik=CPXrxR36mH2esg&pid=ImgRaw&r=0" class="card-img-top custom-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ONOMO HOTEL</h5>
+            <p class="card-text">En plein coeur de Douala , CK hotel sait attire ses visiteur avec son panorama Europeen </p>
+            <a href="{% url 'ck' %}" class="btn btn-warning">Visiter</a>
+            <a href="#" class="btn btn-success">Reserver</a>
+          </div>
+        </div>
+  </div>
+  <div class="col-md-4 mt-3">
+      <div class="card shadow " style="width: 18rem;">
+          <img src="https://media-cdn.tripadvisor.com/media/photo-s/0a/4f/e9/91/vue-arriere.jpg" class="card-img-top custom-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">HOTEL SAWA </h5>
+            <p class="card-text">Visiter l'hotel MONT FEBE HOTEL sur les colines de Yaoundes avec son panorame Europeen .</p>
+            <a href="{% url 'fb' %}" class="btn btn-warning">Visiter</a>
+            <a href="#" class="btn btn-success">Reserver</a>
+          </div>
+        </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4 mt-3">
+      <div class="card shadow " style="width: 18rem;">
+          <img src="https://tse1.mm.bing.net/th/id/OIP.DIwwcN5kFWyAhq5jTmyS7gAAAA?cb=iwp1&rs=1&pid=ImgDetMain" class="card-img-top custom-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">HOTEL LA FALAISE</h5>
+            <p class="card-text">Situe au coueur de yaounde,Hilton hotel se classe parmi les meilleurs au cameroun</p>
+            <a href="{% url 'hotel' %}" class="btn btn-warning">Visiter</a>
+            <a href="#" class="btn btn-success">Reserver</a>
+          </div>
+        </div>
+  </div>
+  <div class="col-md-4 mt-3">
+      <div class="card shadow " style="width: 18rem;">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.ZHp5EJLVXEY-JYrr01W8cgHaEK?cb=iwp1&rs=1&pid=ImgDetMain" class="card-img-top custom-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">VALLEE BANA </h5>
+            <p class="card-text">En plein coeur de Douala , CK hotel sait attire ses visiteur avec son panorama Europeen </p>
+            <a href="{% url 'ck' %}" class="btn btn-warning">Visiter</a>
+            <a href="#" class="btn btn-success">Reserver</a>
+          </div>
+        </div>
+  </div>
+  <div class="col-md-4 mt-3">
+      <div class="card shadow " style="width: 18rem;">
+          <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/f2/30/aa/piscine-vue-aerienne.jpg?w=700&h=-1&s=1" class="card-img-top custom-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">VENDROME DOUALA </h5>
+            <p class="card-text">Visiter l'hotel MONT FEBE HOTEL sur les colines de Yaoundes avec son panorame Europeen .</p>
+            <a href="{% url 'fb' %}" class="btn btn-warning">Visiter</a>
+            <a href="#" class="btn btn-success">Reserver</a>
+          </div>
+        </div>
+  </div>
+</div>
+    
 </div>
 
 <style>
